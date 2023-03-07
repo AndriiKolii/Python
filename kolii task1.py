@@ -5,4 +5,3 @@ result = ((15 + 11.1/3) / (33 + 12.3)) - 123.1
 result = round(result, 3)
 print(result)
 
-
