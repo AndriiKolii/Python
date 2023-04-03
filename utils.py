@@ -1,3 +1,9 @@
+def validate_division(error_value):
+    while True:
+        x = validate_input('x')
+        if x != error_value:
+            return x
+        print('X value cause division by zero')
 
 
 def validate_input(var_name):
