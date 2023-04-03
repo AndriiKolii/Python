@@ -1,7 +1,7 @@
-def validate_division(error_value):
+def validate_division(comparison_function):
     while True:
         x = validate_input('x')
-        if x != error_value:
+        if comparison_function(x):
             return x
         print('X value cause division by zero')
 
